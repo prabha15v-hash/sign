@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="form.css">
+    <a href="https://prabha15v-hash.github.io/prabha-store/"><button>HOME</button></a>
+    <head>
+        <center>
+        <title>sign up</title>
+        <h1>Sign UP</h1>
+        
+ </head>
+ <body>
+    <form id="myform">
+    <tr>
+        <td><lable id="f">First Name</lable></td><input type="text" placeholder="Enter your first name" id="fi"><br>
+    </tr>
+
+    <tr>
+        <td><lable id="l">Last Name</lable></td><input type="text" placeholder="Enter your last name" id="ln">
+    <tr><br>
+        <td><lable id="t">EMAIL ID</lable></td><input type="text" placeholder="Enter your Email" id="email">
+    </tr><br>
+    <tr>
+        <label id="gen">GENDER</label>
+        <select name="GENDER" id="gender">
+           <option>Male</option>
+            <option>Female</option>
+            <option>Third Gender</option></select>
+    </tr><br>
+    <label id="d" for="dob">DOB</label>
+    <input type="date" id="dob" name="dob"><br>
+</center>
+   <a href="https://prabha15v-hash.github.io/prabha-store/"><button id="sub">SUBMIT</button></a>
+    <button id="res" onclick="form()">RESET</button>
+    </form>
+ </body>
+</html>
+<script>
+    document.getElementById("myForm").reset();
+
+</script>
